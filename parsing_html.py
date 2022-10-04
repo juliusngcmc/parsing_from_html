@@ -15,7 +15,7 @@ for name in name_dict:
         csv_monthly = name + "_monthly.csv"
         csv_daily = name + "_" + date_time + "_daily.csv"
         # Opening JSON file
-        f = open("1_database/" + json_name)
+        f = open("database/" + json_name)
 
         # returns JSON object as
         # a dictionary
